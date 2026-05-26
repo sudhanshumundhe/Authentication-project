@@ -1,16 +1,83 @@
-# React + Vite
+🔐 Auth System (React + FreeAPI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern authentication system built using React JS and FreeAPI Authentication Module, featuring login, registration, session-based authentication, and a clean modern UI.
 
-Currently, two official plugins are available:
+🚀 Live Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔐 User Registration (Create Account)
+🔑 User Login with session authentication
+👤 Fetch current logged-in user
+🚪 Logout functionality
+⚡ Real-time API error handling
+⏳ Loading states for better UX
+🎨 Modern glassmorphism UI design
+📱 Fully responsive layout
 
-## React Compiler
+🛠️ Tech Stack
+⚛️ React JS (Frontend Framework)
+🎨 CSS3 (Modern UI Design)
+🔥 JavaScript (ES6+)
+🌐 FreeAPI (Authentication Backend)
+🍪 Cookie-based session authentication
+📸 UI Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔐 Login Page
+👤 Registration Page
+📊 User Profile Dashboard
+🚪 Logout State UI
 
-## Expanding the ESLint configuration
+📂 Project Structure
+src/
+├── App.jsx
+├── App.css
+├── main.jsx
+├── index.css
+└── components/
+▶️ How to Run Project
+1. Clone repository
+git clone https://github.com/your-username/auth-system.git
+2. Install dependencies
+npm install
+3. Start development server
+npm run dev
+🔐 API Endpoints Used
+POST /users/register
+POST /users/login
+POST /users/logout
+GET /users/current-user
+🌟 Features in Detail
+🔐 Authentication Flow
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Secure login & registration using FreeAPI with session cookies.
+
+👤 User Session
+
+Automatically fetch logged-in user on page load.
+
+🚪 Logout System
+
+Clears session and redirects user to login screen.
+
+🎨 Modern UI
+
+Glassmorphism-based design with smooth animations.
+
+⚡ Error Handling
+
+Displays proper success and error messages for all API actions.
+
+📌 Future Improvements
+🔥 JWT token authentication support
+🔥 Protected routes (React Router)
+🔥 Redux/Zustand state management
+🔥 Email verification system
+🔥 Password reset feature
+🔥 Better animations (Framer Motion)
+👨‍💻 Developer
+
+Made with ❤️ using React JS + FreeAPI
+A simple project to understand frontend authentication flow in real-world apps
+
+⭐ If you like this project
+
+Give it a ⭐ on GitHub and share it 🚀
